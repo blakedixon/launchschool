@@ -1,3 +1,0 @@
-print "Hello, what is you name? "
-name = gets.chomp
-puts "Welcome " + name + "!"

@@ -9,4 +9,4 @@ p a
 a.merge!(b)
 
 p c
-print a
+p a

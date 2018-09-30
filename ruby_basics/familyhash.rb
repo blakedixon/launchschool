@@ -10,4 +10,4 @@ immediate_family = family.select do |member, names|
   (member == :sisters) || (member == :brothers)
 end
 
-puts immediate_family
+p immediate_family.values.flatten

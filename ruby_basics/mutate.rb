@@ -3,7 +3,7 @@ def mutate(arr)
 end
 
 def not_mutate(arr)
-  puts arr.select do |i|
+   arr.select do |i|
     i > 3
   end
 end
