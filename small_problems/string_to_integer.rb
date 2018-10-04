@@ -7,7 +7,7 @@ def string_to_integer(str)
     count += 1
   end
   arr.inject(0, :+)
-  end
+end
 
 puts string_to_integer('4321') == 4321
 puts string_to_integer('570') == 570
